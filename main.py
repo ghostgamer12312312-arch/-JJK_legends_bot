@@ -37,4 +37,7 @@ def handle_inventory(message):
     items = "\n• ".join(player_inventory)
     bot.reply_to(message, f"🎒 YOUR INVENTORY:\n• {items}")
 
+bot.remove_webhook()
+time.sleep(1)
+
 bot.infinity_polling()
