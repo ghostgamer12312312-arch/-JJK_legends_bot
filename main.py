@@ -36,7 +36,7 @@ def handle_battle(message):
 def handle_inventory(message):
     items = "\n• ".join(player_inventory)
     bot.reply_to(message, f"🎒 YOUR INVENTORY:\n• {items}")
-
+import time
 bot.remove_webhook()
 time.sleep(1)
 
