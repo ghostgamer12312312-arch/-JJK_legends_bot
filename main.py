@@ -1,11 +1,10 @@
- IMPORTS
+IMPORTS
 import os
 import time
 import random
 import sqlite3
 import telebot
 from telebot import types
-
 # --- CONFIGURATION & TOKEN ---
 API_TOKEN = os.getenv(8885739902:AAGfDtqJVPGS43b3AXWCEAj1pazS7RvfNMU)
 if not API_TOKEN:
